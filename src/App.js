@@ -37,7 +37,7 @@ function App() {
             }}
             data-testid="on/off-button"
           >
-            on/off
+            {disabled ? 'on' : 'off'}
           </button>
         </div>
       </div>
